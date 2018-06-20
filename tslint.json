@@ -33,7 +33,7 @@
     ],
     "member-access": false,
     "member-ordering": [
-      true,
+      false,
       {
         "order": [
           "static-field",
@@ -44,10 +44,9 @@
       }
     ],
     "no-arg": true,
-    "no-bitwise": true,
+    "no-bitwise": false,
     "no-console": [
-      true,
-      "debug",
+      false,
       "info",
       "time",
       "timeEnd",
